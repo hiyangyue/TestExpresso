@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
+apply plugin: 'spoon'
 
+spoon {
+    shard = true
+}
 android {
     compileSdkVersion 26
     buildToolsVersion "25.0.3"
